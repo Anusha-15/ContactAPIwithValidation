@@ -1,5 +1,6 @@
 ﻿using ContactsAPI.Data;
 using ContactsAPI.Models;
+using ContactsAPI.Validators;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -49,14 +50,23 @@ namespace ContactsAPI.Controllers
                 Fullname = addContactRequest.Fullname,
                 Phone = addContactRequest.Phone,
 
+
             };
+            var validator = new ContactValidator();
+            var errors = validator.Validate(Contact);
+            if (!errors.IsValid)
+            {
+                return BadRequest(errors);
+            }
 
             await dbContext.Contacts.AddAsync(Contact);
             await dbContext.SaveChangesAsync();
 
             return Ok(Contact);
+            
            
         }
+        [HttpPost]
 
         [HttpPut]
         [Route("{id:guid}")]

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "7WlHpUccS8/kLh4BoXJNtO2PDVX5W54j/0MRXSIT3e0=",
+  "Hash": "9g2OKGOgb5fdhvlGrGR20UCbUckLIExuZFNEL1AKOJk=",
   "Source": "ContactsAPI",
   "BasePath": "_content/ContactsAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ContactsAPI\\wwwroot",
+      "Source": "ContactsAPI",
+      "ContentRoot": "D:\\ASP.Net core 6  web api\\ContactsAPI\\ContactsAPI\\wwwroot\\",
+      "BasePath": "_content/ContactsAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

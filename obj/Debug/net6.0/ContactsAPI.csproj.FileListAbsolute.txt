@@ -86,3 +86,8 @@ D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\runtimes\win
 D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\ContactsAPI.staticwebassets.runtime.json
+D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\FluentValidation.dll
+D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ASP.Net core 6  web api\ContactsAPI\ContactsAPI\bin\Debug\net6.0\MicroElements.Swashbuckle.FluentValidation.dll
